@@ -1,0 +1,314 @@
+.body
+{
+    width: 100%!important;
+    height: 100% !important;
+}
+
+.nav-out
+{
+    position: absolute;
+   
+    width: 100%;    
+    
+}
+
+.nav
+{
+    padding-right: 100px;
+    padding-top: 10px;
+    z-index: 2;
+}
+
+.navbar-header
+{
+    padding-left: 150px;
+    
+    z-index: 8;
+}
+
+.nav-item
+{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav-item a
+{
+    color: white !important;
+    opacity: 0.7 !important;
+}
+
+.horizontal
+{
+    border-top: 1.8px dotted transparent;
+    
+}
+
+.nav-item a:hover hr
+{
+    
+    border-top: 1.5px dotted white;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-11px);
+    
+}
+
+
+
+.control
+{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border-left-style: dotted;
+    border-left-color: rgba(255,255,255,0.2);
+    border-right-style: solid;
+    border-right-color: rgba(255,255,255,0.2);
+    
+    border-top-style: dotted;
+    border-top-color: rgba(255,255,255,0.2);
+    
+    border-bottom-style: dotted;
+    border-bottom-color: rgba(255,255,255,0.2);
+    
+    z-index: 2;
+    
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    
+}
+
+
+.carousel-indicators li
+{
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    
+    
+    position: relative;
+    
+}
+
+.carousel-indicators li:hover
+{
+    cursor: pointer;
+}
+
+.li1
+{
+    bottom: 250px;
+    right: -200px;
+    
+}
+.li2
+{
+    bottom: 160px;
+    right: -200px;
+    
+}
+.li3
+{
+    bottom: 70px;
+    right: -155px;
+    
+}
+
+.ll
+{
+    background: transparent !important;
+}
+
+.ll.active
+{
+    background: white !important;
+}
+
+.cdata
+{
+    display: none !important;
+}
+.cdata.active
+{
+    display: flex !important;
+    flex-direction: column;
+}
+
+.c1
+{
+    width: 50%;
+    height: 100%;
+    background: rgba(248,248,248,0.8);
+    transition: all 0.5s ease;
+    
+    position: absolute;
+    
+    z-index: 4;
+    padding-top: 120px;
+    padding-left: 100px;
+    
+}
+
+.c2
+{
+    width: 50%;
+    height: 100%;
+    background: rgba(248,248,248,0.8);
+    transition: all 0.5s ease;
+    
+    position: absolute;
+    
+    z-index: 4;
+    padding-top: 120px;
+    padding-left: 100px;
+    
+}
+
+.c3
+{
+    width: 50%;
+    height: 100%;
+    background: rgba(248,248,248,0.8);
+    transition: all 0.5s ease;
+    
+    position: absolute;
+    
+    z-index: 4;
+    padding-top: 120px;
+    padding-left: 100px;
+    
+}
+
+.c1 .back
+{
+    font-weight: 700;
+    font-size: 500px;
+    
+    
+    color: rgb(48,179,251);
+    opacity: 0.5;
+    position: fixed;
+    top: -50px;
+    left: 30px;
+    
+}
+
+.c2 .back
+{
+    font-weight: 700;
+    font-size: 500px;
+    
+    
+    color: rgb(247,148,14);
+    opacity: 0.5;
+    position: fixed;
+    top: -50px;
+    left: 30px;
+    
+}
+
+.c3 .back
+{
+    font-weight: 700;
+    font-size: 500px;
+    
+    
+    color: rgb(139,136,131);
+    opacity: 0.5;
+    position: fixed;
+    top: -50px;
+    left: 30px;
+    
+}
+
+
+.d1 .p1
+{
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 2em;    
+}
+
+.d1 .p2
+{
+   color: black;
+    font-weight: 400;
+    font-size: 25px;
+    margin-top: -30px;
+}
+
+
+.d2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.d2p1
+{
+  color: black;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 15px;
+}
+
+
+.d2-2
+{
+    width: 5px;
+    height: 100%;
+    background: black;
+}
+
+.d2-3
+{
+    padding-top: 15px;
+    margin-right: 350px;
+}
+
+.dp1
+{
+    color: black;
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+
+.d3 p
+{
+    padding-top: 80px;
+    font-size: 15px;
+    margin-right: 200px;
+}
+
+.vid.active
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.v3
+{
+    background-image: linear-gradient(rgba(78,74,70,0.9),rgba(78,74,70,0.9)) !important;
+}
+
+.v2
+{
+    background-image: linear-gradient(rgba(199,78,17,0.9),rgba(199,78,17,0.9)) !important;
+}
+
+.v1
+{
+    background-image: linear-gradient(rgba(49,82,101,0.9),rgba(49,82,101,0.9)) !important;
+}
+
+.videobg
+{   
+    width: 100%;
+    position: fixed;
+    z-index: -2;
+}

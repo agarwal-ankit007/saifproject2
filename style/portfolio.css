@@ -1,0 +1,399 @@
+.nav
+{
+    padding-right: 200px;
+/*    background: darkgray;*/
+    
+}
+
+.nav-out
+{
+    height: 480px;
+    background-image: linear-gradient(rgba(192,192,192,0.5),rgba(192,192,192,0.5)),url(../images/portfolio.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.navbar-header
+{
+    padding-left: 200px;
+}
+
+.nav-item
+{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav-item a
+{
+    color: black;
+}
+
+.horizontal
+{
+    border-top: 1.8px dotted transparent;
+    
+}
+
+.nav-item a:hover hr
+{
+    
+    border-top: 1.2px dotted black;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-11px);
+    
+}
+
+/* body content*/
+.content
+{
+    margin-left: 200px;
+}
+
+.blank
+{
+    height: 250px;
+    width: 100%;
+}
+.about
+{
+    font-size: 200px;
+    font-weight: 900;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 1em;
+    position: relative;
+    top: -130px;
+}
+.dots
+{
+    position: absolute;
+    top: 610px;
+    color:black;
+    font-size: 40px;
+    letter-spacing: 10px;
+    
+}
+
+.top-para
+{
+    padding-top: -20px;
+    font-size: 25px;
+    color: black;
+    
+}
+.line
+{
+    border-top: 3px solid black;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+/* button */
+
+.buton
+{
+    padding-top: 80px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bt
+{
+    width: 180px !important;
+    height: 40px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 8px;
+    background: lightgray;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.bt.active
+{
+    color: white;
+    background: rgb(55,55,55);
+}
+
+
+.tab-pannel
+{
+    display: none !important;
+}
+.tab-pannel.active
+{
+    display: flex !important;
+}
+
+.tab-out
+{
+    display: none !important;
+}
+
+.tab-out.active
+{
+    display: flex !important;
+    flex-direction: column;
+}
+
+.tb
+{
+    display: none !important;
+}
+
+.tb.active
+{
+    display: flex !important;
+    
+}
+
+.tb1
+{
+    display: none !important;
+}
+
+.tb1.active
+{
+    display: flex !important;
+}
+
+.tb-content
+{
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(3,1fr);
+    margin-right: 200px;
+}
+
+
+.logo
+{
+    height: 350px;
+    width: 350px;
+    padding: 100px;
+    background: rgb(250,250,250);
+}
+
+.l1:hover
+{
+    transition: all 0.1s linear;
+    filter: invert(100%);
+    background: rgb(150,254,241);
+    cursor: pointer;
+}
+
+.l2:hover
+{
+    transition: all 0.1s linear;
+    filter: invert(100%);
+    background: rgb(140,147,244);
+    cursor: pointer;
+}
+
+.l3:hover
+{
+    transition: all 0.1s linear;
+    filter: invert(100%);
+    background: rgb(192,135,249);
+    cursor: pointer;
+}
+
+.l4:hover
+{
+    transition: all 0.1s linear;
+    filter: invert(100%);
+    background: rgb(248,146,110);
+    cursor: pointer;
+}
+
+.l5:hover
+{
+    transition: all 0.1s linear;
+    filter: invert(100%);
+    background: rgb(192,135,249);
+    cursor: pointer;
+}
+.l6:hover
+{
+    transition: all 0.1s linear;
+    filter: invert(100%);
+    background: rgb(104,203,247);
+    cursor: pointer;
+}
+
+.l7:hover
+{
+    transition: all 0.1s linear;
+    filter: invert(100%);
+    background: rgb(111,243,192);
+    cursor: pointer;
+}
+/*tabs*/
+.tab1
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-right: 200px;
+    
+}
+
+.tabs
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+    font-size: 15px;
+    width: 85%;
+    
+}
+
+.tab
+{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tab.active
+{
+    color: black;
+}
+
+/* above footer */
+
+.above-footer
+{
+    display: flex;
+    flex-direction: row;
+    padding-right: 200px;
+    width: 100%;
+    height: 250px;
+}
+
+.above-footer h6
+{
+    font-weight: 700;
+}
+
+.discover
+{
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.disc-item
+{
+    list-style-type: none;
+    font-size: 14px;
+    padding-top: 30px;
+    margin-left: -40px;
+    color: rgb(192,192,192);
+}
+
+.disc-item li:hover
+{
+    color: black;
+    cursor: pointer;
+}
+
+.con li:hover
+{
+    text-decoration: underline;
+}
+
+.connect
+{
+    width: 40%;
+    padding-top: 30px;
+}
+
+.subscribe
+{
+    width: 30%;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.subscribe label
+{
+    padding-top: 40px;
+    font-size: 14px;
+    color: rgb(192,192,192);
+}
+
+.email
+{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 95%;
+}
+.email:focus
+{
+    outline: none !important;
+}
+
+.subs-btn
+{
+    text-transform: uppercase;
+    border: 2px solid black;
+    width: 95%;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.subs-btn:hover
+{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 200px;
+    padding-top: 10px;
+}
+.foot-left
+{
+    width: 50%;
+    height: 80px;
+    font-size: 14px;
+    color: rgb(192,192,192);
+}
+
+.foot-right
+{
+    font-size: 25px;
+    color: rgb(142,142,142);
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.foot-right .fa:hover
+{
+    cursor: pointer;
+    color: deepskyblue;
+}

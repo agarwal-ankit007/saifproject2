@@ -1,0 +1,334 @@
+.nav
+{
+    padding-right: 200px;
+    padding-top: 10px;
+}
+
+.navbar-header
+{
+    padding-left: 200px;
+}
+
+.nav-item
+{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav-item a
+{
+    color: black;
+}
+
+.horizontal
+{
+    border-top: 1.8px dotted transparent;
+    
+}
+
+.nav-item a:hover hr
+{
+    
+    border-top: 1.2px dotted black;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-11px);
+    
+}
+
+/* body content*/
+.content
+{
+    margin-left: 200px;
+}
+
+.blank
+{
+    height: 250px;
+    width: 100%;
+}
+.team
+{
+    font-size: 180px;
+    font-weight: 900;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 1em;
+}
+.dots
+{
+    padding-top: 50px;
+    color:black;
+    font-size: 40px;
+    letter-spacing: 10px;
+    
+}
+
+.top-para
+{
+    padding-top: 20px;
+    font-size: 30px;
+    color: black;
+    
+}
+.line
+{
+    border-top: 3px solid black;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+
+
+.line1
+{
+    border-top: 3px solid black;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+
+/*middle*/
+.middle
+{
+    width: 84.8%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.mid-left
+{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-head
+{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.inp
+{
+    border: none;
+    padding-top: 40px;
+    
+    
+    width: 77%;
+    
+    font-size: 14px;
+}
+
+.inp:focus
+{
+    outline: none;
+}
+
+.inp:focus::placeholder
+{
+    transform: translateY(-45px) scale(0.8);
+    transition: all 0.5s ease;
+    position: relative;
+    top: 0px;
+}
+
+.mid-right
+{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.right-head
+{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.r1
+{
+    width: 100% !important;
+}
+
+.r1 .p1
+{
+    font-weight: 700;
+    font-size: 13px;
+}
+.r1 .p2
+{
+    color: gray;
+    font-size: 15px;
+}
+
+.r22
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+
+.r2
+{
+    width: 35%;
+}
+
+.r3
+{
+    width: 65%;
+}
+
+.r2 .p1 ,.r3 .p1
+{
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.r2 .p2 ,.r3 .p2
+{
+    color: gray;
+    font-size: 15px;
+}
+
+
+/* above footer */
+
+.above-footer
+{
+    display: flex;
+    flex-direction: row;
+    padding-right: 200px;
+    width: 100%;
+    height: 250px;
+}
+
+.above-footer h6
+{
+    font-weight: 700;
+}
+
+.discover
+{
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.disc-item
+{
+    list-style-type: none;
+    font-size: 14px;
+    padding-top: 30px;
+    margin-left: -40px;
+    color: rgb(192,192,192);
+}
+
+.disc-item li:hover
+{
+    color: black;
+    cursor: pointer;
+}
+
+.con li:hover
+{
+    text-decoration: underline;
+}
+
+.connect
+{
+    width: 40%;
+    padding-top: 30px;
+}
+
+.subscribe
+{
+    width: 30%;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.subscribe label
+{
+    padding-top: 40px;
+    font-size: 14px;
+    color: rgb(192,192,192);
+}
+
+.email
+{
+    border: none;
+    border-bottom: 2px solid black;
+    width: 95%;
+}
+.email:focus
+{
+    outline: none !important;
+}
+
+.subs-btn
+{
+    text-transform: uppercase;
+    border: 2px solid black;
+    width: 95%;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.subs-btn:hover
+{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 200px;
+    padding-top: 10px;
+}
+.foot-left
+{
+    width: 50%;
+    height: 80px;
+    font-size: 14px;
+    color: rgb(192,192,192);
+}
+
+.foot-right
+{
+    font-size: 25px;
+    color: rgb(142,142,142);
+    width: 50%;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.foot-right .fa:hover
+{
+    cursor: pointer;
+    color: deepskyblue;
+}
+
+
+
+
